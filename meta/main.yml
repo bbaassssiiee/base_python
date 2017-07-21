@@ -24,4 +24,7 @@ galaxy_info:
     - python
     - ubuntu
 
-dependencies: []
+dependencies:
+  - bbaassssiiee.base_common
+  - bbaassssiiee.base_epel
+  - bbaassssiiee.base_cplusplus

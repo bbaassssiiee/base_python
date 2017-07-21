@@ -2,19 +2,19 @@
 
 python_rhel:
   - python
-  - python-crypto
-  - pyOpenSSL
-  - python-setuptools
   - python-pip
-  - python-wheel
+  - python-virtualenv
 
 python_epel:
   - python-devel
-  - python-virtualenv
   - python-cryptography
+  - python-crypto
+  - openssl-devel
+  - pyOpenSSL
+  - python-setuptools
+  - python-wheel
   - python-pyasn1
   - libffi-devel
-  - openssl-devel
 
 python_apts:
   - python
